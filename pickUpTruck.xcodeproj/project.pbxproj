@@ -62,8 +62,8 @@
 		BAE47A921745E69F00C26788 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BAE47A941745E69F00C26788 /* pickUpTruckTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pickUpTruckTests.h; sourceTree = "<group>"; };
 		BAE47A951745E69F00C26788 /* pickUpTruckTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pickUpTruckTests.m; sourceTree = "<group>"; };
-		BAE47AA91745F8F100C26788 /* tow-truck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tow-truck.png"; sourceTree = "<group>"; };
-		BAE47AAD1745FA1900C26788 /* speechbubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = speechbubble.png; sourceTree = "<group>"; };
+		BAE47AA91745F8F100C26788 /* tow-truck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tow-truck.png"; path = "../tow-truck.png"; sourceTree = "<group>"; };
+		BAE47AAD1745FA1900C26788 /* speechbubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = speechbubble.png; path = ../speechbubble.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,8 +93,6 @@
 		BAE47A551745E69F00C26788 = {
 			isa = PBXGroup;
 			children = (
-				BAE47AAD1745FA1900C26788 /* speechbubble.png */,
-				BAE47AA91745F8F100C26788 /* tow-truck.png */,
 				BAE47A671745E69F00C26788 /* pickUpTruck */,
 				BAE47A8E1745E69F00C26788 /* pickUpTruckTests */,
 				BAE47A601745E69F00C26788 /* Frameworks */,
@@ -139,6 +137,8 @@
 		BAE47A681745E69F00C26788 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BAE47AAD1745FA1900C26788 /* speechbubble.png */,
+				BAE47AA91745F8F100C26788 /* tow-truck.png */,
 				BAE47A691745E69F00C26788 /* pickUpTruck-Info.plist */,
 				BAE47A6A1745E69F00C26788 /* InfoPlist.strings */,
 				BAE47A6D1745E69F00C26788 /* main.m */,

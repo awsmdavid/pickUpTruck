@@ -60,5 +60,10 @@ static int lastPickedLine = -1;
     NSString *pickUpLine = [pickUpLinesArray objectAtIndex:i];
     self.pickUpLabel.text = pickUpLine;
     lastPickedLine = i;
+    
+    //add pick up line to clipboard for copy and paste
+    UIPasteboard *pasteboard = [UIPasteboard generalPasteboard];
+    pasteboard.string = self.pickUpLabel.text;
+
 }
 @end

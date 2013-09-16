@@ -12,12 +12,21 @@
                         <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="speechbubble.png" translatesAutoresizingMaskIntoConstraints="NO" id="oIs-rf-SlN">
-                                <color key="backgroundColor" red="0.9531465269816175" green="0.989039220756601" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Screen Shot 2013-09-16 at 4.34.20 PM.png" translatesAutoresizingMaskIntoConstraints="NO" id="7d7-sv-Lha">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="WGP-mz-kk7"/>
+                                    <constraint firstAttribute="height" constant="195" id="yqm-6f-vqt"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="pick-up truck_v6.png" translatesAutoresizingMaskIntoConstraints="NO" id="yLf-zi-afl">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="199" id="dOf-ic-2r5"/>
+                                    <constraint firstAttribute="height" constant="242" id="tU8-tL-0wk"/>
+                                </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yqX-Ys-f5u">
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="36" id="9Xa-wm-Awe"/>
+                                    <constraint firstAttribute="height" constant="36" id="cin-NW-UsV"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="20"/>
                                 <state key="normal" title="Next">
@@ -31,30 +40,14 @@
                                     <action selector="changePickUp:" destination="2" eventType="touchUpInside" id="nw7-KM-F3A"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Sup Ladies" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="6" baselineAdjustment="alignBaselines" minimumFontSize="14" preferredMaxLayoutWidth="263" translatesAutoresizingMaskIntoConstraints="NO" id="ECW-sT-aCD">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="143" id="3cB-zz-cex"/>
-                                    <constraint firstAttribute="width" constant="263" id="A53-Wn-Sfv"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="24"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="pick-up truck_v6.png" translatesAutoresizingMaskIntoConstraints="NO" id="6e3-Dx-gFT">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="125" id="i0W-Qx-MGN"/>
-                                    <constraint firstAttribute="width" constant="189" id="mBF-gd-P1O"/>
-                                </constraints>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K7h-Sm-aEr">
                                 <constraints>
                                     <constraint firstAttribute="width" constant="72" id="ADl-cK-Nuo"/>
                                     <constraint firstAttribute="height" constant="38" id="igE-NV-Wm0"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="20"/>
                                 <state key="normal" title="Back">
                                     <color key="titleColor" red="0.027450982481241226" green="0.0078431377187371254" blue="0.0078431377187371254" alpha="1" colorSpace="deviceRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -63,20 +56,31 @@
                                     <action selector="goBack:" destination="2" eventType="touchUpInside" id="5Uw-v8-B4n"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Sup Ladies" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="6" baselineAdjustment="alignBaselines" minimumFontSize="14" preferredMaxLayoutWidth="263" translatesAutoresizingMaskIntoConstraints="NO" id="ECW-sT-aCD">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="143" id="3cB-zz-cex"/>
+                                    <constraint firstAttribute="width" constant="263" id="A53-Wn-Sfv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="24"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="0.0" height="2"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <gestureRecognizers/>
                         <constraints>
-                            <constraint firstItem="ECW-sT-aCD" firstAttribute="centerX" secondItem="oIs-rf-SlN" secondAttribute="centerX" type="default" id="DLT-43-4HI"/>
-                            <constraint firstItem="ECW-sT-aCD" firstAttribute="trailing" secondItem="yqX-Ys-f5u" secondAttribute="trailing" type="default" id="JvQ-pb-5Jo"/>
-                            <constraint firstItem="K7h-Sm-aEr" firstAttribute="leading" secondItem="oIs-rf-SlN" secondAttribute="leading" type="default" id="PvH-8x-857"/>
-                            <constraint firstItem="ECW-sT-aCD" firstAttribute="top" secondItem="3" secondAttribute="top" constant="69" id="UAT-Ku-Bss"/>
-                            <constraint firstItem="ECW-sT-aCD" firstAttribute="leading" secondItem="yqX-Ys-f5u" secondAttribute="leading" type="default" id="aaO-TP-W3a"/>
-                            <constraint firstItem="oIs-rf-SlN" firstAttribute="top" secondItem="3" secondAttribute="top" constant="52" id="ahj-rC-qWB"/>
-                            <constraint firstItem="6e3-Dx-gFT" firstAttribute="centerX" secondItem="yqX-Ys-f5u" secondAttribute="centerX" type="default" id="eW7-J0-qMm"/>
-                            <constraint firstItem="ECW-sT-aCD" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="fnd-qp-O7a"/>
+                            <constraint firstItem="K7h-Sm-aEr" firstAttribute="leading" secondItem="7d7-sv-Lha" secondAttribute="leading" type="default" id="E2u-J9-joS"/>
+                            <constraint firstItem="yqX-Ys-f5u" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="Obp-1L-fI9"/>
+                            <constraint firstItem="ECW-sT-aCD" firstAttribute="leading" secondItem="yqX-Ys-f5u" secondAttribute="leading" type="default" id="QCj-es-bMf"/>
+                            <constraint firstItem="yLf-zi-afl" firstAttribute="centerX" secondItem="yqX-Ys-f5u" secondAttribute="centerX" type="default" id="Sh3-0B-kmV"/>
+                            <constraint firstItem="ECW-sT-aCD" firstAttribute="trailing" secondItem="yqX-Ys-f5u" secondAttribute="trailing" type="default" id="U4O-K1-M9q"/>
+                            <constraint firstItem="ECW-sT-aCD" firstAttribute="top" secondItem="K7h-Sm-aEr" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="W1I-x7-s3G"/>
+                            <constraint firstItem="7d7-sv-Lha" firstAttribute="top" secondItem="K7h-Sm-aEr" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Z1A-zb-RcE"/>
+                            <constraint firstItem="ECW-sT-aCD" firstAttribute="centerX" secondItem="7d7-sv-Lha" secondAttribute="centerX" type="default" id="aqd-jn-3c9"/>
                             <constraint firstAttribute="bottom" secondItem="yqX-Ys-f5u" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="g7M-IS-o9v"/>
-                            <constraint firstItem="yqX-Ys-f5u" firstAttribute="top" secondItem="6e3-Dx-gFT" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="l84-Qa-sNC"/>
-                            <constraint firstItem="oIs-rf-SlN" firstAttribute="top" secondItem="K7h-Sm-aEr" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="xSX-4J-UJD"/>
+                            <constraint firstItem="K7h-Sm-aEr" firstAttribute="top" secondItem="3" secondAttribute="top" constant="6" id="hqM-mI-XGF"/>
+                            <constraint firstAttribute="bottom" secondItem="yLf-zi-afl" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="rcB-FK-o4m"/>
                         </constraints>
                     </view>
                     <connections>
@@ -88,8 +92,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Screen Shot 2013-09-16 at 4.34.20 PM.png" width="374" height="274"/>
         <image name="pick-up truck_v6.png" width="180" height="252"/>
-        <image name="speechbubble.png" width="300" height="229"/>
     </resources>
     <classes>
         <class className="NSLayoutConstraint" superclassName="NSObject">

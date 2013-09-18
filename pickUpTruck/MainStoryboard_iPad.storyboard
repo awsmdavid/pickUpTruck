@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="11G63b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="11G63b" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
@@ -14,14 +14,12 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="pick-up truck_v6.png" translatesAutoresizingMaskIntoConstraints="NO" id="yLf-zi-afl">
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="259" id="cxb-Bn-yKe"/>
-                                    <constraint firstAttribute="width" constant="199" id="dOf-ic-2r5"/>
+                                    <constraint firstAttribute="height" constant="308" id="lbw-HN-XIj"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Screen Shot 2013-09-16 at 4.34.20 PM.png" translatesAutoresizingMaskIntoConstraints="NO" id="7d7-sv-Lha">
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="WGP-mz-kk7"/>
-                                    <constraint firstAttribute="height" constant="189" id="oh8-ue-7Yr"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yqX-Ys-f5u">
@@ -58,8 +56,8 @@
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Sup Ladies" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="6" baselineAdjustment="alignBaselines" minimumFontSize="14" preferredMaxLayoutWidth="263" translatesAutoresizingMaskIntoConstraints="NO" id="ECW-sT-aCD">
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="143" id="3cB-zz-cex"/>
                                     <constraint firstAttribute="width" constant="263" id="A53-Wn-Sfv"/>
+                                    <constraint firstAttribute="height" constant="169" id="Bor-ZL-DH5"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="24"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -70,17 +68,19 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <gestureRecognizers/>
                         <constraints>
-                            <constraint firstItem="K7h-Sm-aEr" firstAttribute="leading" secondItem="7d7-sv-Lha" secondAttribute="leading" type="default" id="E2u-J9-joS"/>
-                            <constraint firstItem="yqX-Ys-f5u" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="Obp-1L-fI9"/>
+                            <constraint firstItem="ECW-sT-aCD" firstAttribute="bottom" secondItem="7d7-sv-Lha" secondAttribute="bottom" type="default" id="CVZ-Rk-Ilq"/>
+                            <constraint firstItem="yLf-zi-afl" firstAttribute="leading" secondItem="yqX-Ys-f5u" secondAttribute="leading" type="default" id="D4P-ad-2RL"/>
                             <constraint firstItem="ECW-sT-aCD" firstAttribute="leading" secondItem="yqX-Ys-f5u" secondAttribute="leading" type="default" id="QCj-es-bMf"/>
-                            <constraint firstItem="yLf-zi-afl" firstAttribute="centerX" secondItem="yqX-Ys-f5u" secondAttribute="centerX" type="default" id="Sh3-0B-kmV"/>
+                            <constraint firstItem="yLf-zi-afl" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="TmJ-Az-fo9"/>
                             <constraint firstItem="ECW-sT-aCD" firstAttribute="trailing" secondItem="yqX-Ys-f5u" secondAttribute="trailing" type="default" id="U4O-K1-M9q"/>
                             <constraint firstItem="ECW-sT-aCD" firstAttribute="top" secondItem="K7h-Sm-aEr" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="W1I-x7-s3G"/>
                             <constraint firstItem="7d7-sv-Lha" firstAttribute="top" secondItem="K7h-Sm-aEr" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Z1A-zb-RcE"/>
                             <constraint firstItem="yLf-zi-afl" firstAttribute="bottom" secondItem="3" secondAttribute="bottom" type="default" id="aCY-Lz-MIH"/>
                             <constraint firstItem="ECW-sT-aCD" firstAttribute="centerX" secondItem="7d7-sv-Lha" secondAttribute="centerX" type="default" id="aqd-jn-3c9"/>
                             <constraint firstAttribute="bottom" secondItem="yqX-Ys-f5u" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="g7M-IS-o9v"/>
-                            <constraint firstItem="K7h-Sm-aEr" firstAttribute="top" secondItem="3" secondAttribute="top" constant="6" id="hqM-mI-XGF"/>
+                            <constraint firstItem="yqX-Ys-f5u" firstAttribute="trailing" secondItem="yLf-zi-afl" secondAttribute="trailing" type="default" id="ogH-CQ-Sw6"/>
+                            <constraint firstItem="K7h-Sm-aEr" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="5" id="pIU-35-KUv"/>
+                            <constraint firstItem="K7h-Sm-aEr" firstAttribute="top" secondItem="3" secondAttribute="top" constant="6" id="qeb-Og-qBR"/>
                         </constraints>
                     </view>
                     <connections>
@@ -95,19 +95,6 @@
         <image name="Screen Shot 2013-09-16 at 4.34.20 PM.png" width="374" height="274"/>
         <image name="pick-up truck_v6.png" width="180" height="252"/>
     </resources>
-    <classes>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-        <class className="ViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="changePickUp:"/>
-                <relationship kind="action" name="goBack:"/>
-                <relationship kind="outlet" name="pickUpLabel" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

@@ -10,10 +10,10 @@
 		BA3FEDED1781459800A3D602 /* pick-up truck_v6.png in Resources */ = {isa = PBXBuildFile; fileRef = BA3FEDEC1781459800A3D602 /* pick-up truck_v6.png */; };
 		BAB6D0B517E7A2E80070E521 /* Screen Shot 2013-09-16 at 4.34.20 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = BAB6D0B417E7A2E80070E521 /* Screen Shot 2013-09-16 at 4.34.20 PM.png */; };
 		BABED4AA17E7F07600D88D9C /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BABED4A917E7F07600D88D9C /* MainStoryboard_iPad.storyboard */; };
-		BABED4AC17E93B3700D88D9C /* pick-up truck_v6_iphone_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BABED4AB17E93B3700D88D9C /* pick-up truck_v6_iphone_icon.png */; };
 		BABED4AE17E93B5200D88D9C /* pick-up truck_v6_iphone_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BABED4AD17E93B5200D88D9C /* pick-up truck_v6_iphone_icon.png */; };
-		BABED4B417E93CFE00D88D9C /* pick-up truck_v6_ipad_Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BABED4B317E93CFE00D88D9C /* pick-up truck_v6_ipad_Icon.png */; };
 		BABED4B617E93D0900D88D9C /* pick-up truck_v6_ipad_Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BABED4B517E93D0900D88D9C /* pick-up truck_v6_ipad_Icon.png */; };
+		BAE4518517EFB4C700F379C1 /* pickupSupGirlIPadIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = BAE4518317EFB4C700F379C1 /* pickupSupGirlIPadIcon.png */; };
+		BAE4518617EFB4C700F379C1 /* pickupSupGirlIPhoneIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = BAE4518417EFB4C700F379C1 /* pickupSupGirlIPhoneIcon.png */; };
 		BAE47A621745E69F00C26788 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAE47A611745E69F00C26788 /* UIKit.framework */; };
 		BAE47A641745E69F00C26788 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAE47A631745E69F00C26788 /* Foundation.framework */; };
 		BAE47A661745E69F00C26788 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAE47A651745E69F00C26788 /* CoreGraphics.framework */; };
@@ -30,7 +30,6 @@
 		BAE47A8B1745E69F00C26788 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAE47A631745E69F00C26788 /* Foundation.framework */; };
 		BAE47A931745E69F00C26788 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BAE47A911745E69F00C26788 /* InfoPlist.strings */; };
 		BAE47A961745E69F00C26788 /* pickUpTruckTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE47A951745E69F00C26788 /* pickUpTruckTests.m */; };
-		BAE47AAE1745FA1900C26788 /* speechbubble.png in Resources */ = {isa = PBXBuildFile; fileRef = BAE47AAD1745FA1900C26788 /* speechbubble.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,10 +46,10 @@
 		BA3FEDEC1781459800A3D602 /* pick-up truck_v6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pick-up truck_v6.png"; sourceTree = "<group>"; };
 		BAB6D0B417E7A2E80070E521 /* Screen Shot 2013-09-16 at 4.34.20 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2013-09-16 at 4.34.20 PM.png"; sourceTree = "<group>"; };
 		BABED4A917E7F07600D88D9C /* MainStoryboard_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		BABED4AB17E93B3700D88D9C /* pick-up truck_v6_iphone_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pick-up truck_v6_iphone_icon.png"; sourceTree = "<group>"; };
 		BABED4AD17E93B5200D88D9C /* pick-up truck_v6_iphone_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pick-up truck_v6_iphone_icon.png"; sourceTree = "<group>"; };
-		BABED4B317E93CFE00D88D9C /* pick-up truck_v6_ipad_Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pick-up truck_v6_ipad_Icon.png"; sourceTree = "<group>"; };
 		BABED4B517E93D0900D88D9C /* pick-up truck_v6_ipad_Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pick-up truck_v6_ipad_Icon.png"; sourceTree = "<group>"; };
+		BAE4518317EFB4C700F379C1 /* pickupSupGirlIPadIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pickupSupGirlIPadIcon.png; sourceTree = SOURCE_ROOT; };
+		BAE4518417EFB4C700F379C1 /* pickupSupGirlIPhoneIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pickupSupGirlIPhoneIcon.png; sourceTree = SOURCE_ROOT; };
 		BAE47A5E1745E69F00C26788 /* pickUpTruck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pickUpTruck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAE47A611745E69F00C26788 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BAE47A631745E69F00C26788 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -73,7 +72,6 @@
 		BAE47A921745E69F00C26788 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BAE47A941745E69F00C26788 /* pickUpTruckTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pickUpTruckTests.h; sourceTree = "<group>"; };
 		BAE47A951745E69F00C26788 /* pickUpTruckTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pickUpTruckTests.m; sourceTree = "<group>"; };
-		BAE47AAD1745FA1900C26788 /* speechbubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = speechbubble.png; path = ../speechbubble.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,11 +147,10 @@
 		BAE47A681745E69F00C26788 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				BABED4B317E93CFE00D88D9C /* pick-up truck_v6_ipad_Icon.png */,
-				BABED4AB17E93B3700D88D9C /* pick-up truck_v6_iphone_icon.png */,
+				BAE4518317EFB4C700F379C1 /* pickupSupGirlIPadIcon.png */,
+				BAE4518417EFB4C700F379C1 /* pickupSupGirlIPhoneIcon.png */,
 				BA3FEDEC1781459800A3D602 /* pick-up truck_v6.png */,
 				BAB6D0B417E7A2E80070E521 /* Screen Shot 2013-09-16 at 4.34.20 PM.png */,
-				BAE47AAD1745FA1900C26788 /* speechbubble.png */,
 				BAE47A691745E69F00C26788 /* pickUpTruck-Info.plist */,
 				BAE47A6A1745E69F00C26788 /* InfoPlist.strings */,
 				BAE47A6D1745E69F00C26788 /* main.m */,
@@ -260,14 +257,13 @@
 				BAE47A761745E69F00C26788 /* Default@2x.png in Resources */,
 				BAE47A781745E69F00C26788 /* Default-568h@2x.png in Resources */,
 				BAE47A7B1745E69F00C26788 /* MainStoryboard_iPhone.storyboard in Resources */,
-				BAE47AAE1745FA1900C26788 /* speechbubble.png in Resources */,
 				BA3FEDED1781459800A3D602 /* pick-up truck_v6.png in Resources */,
 				BAB6D0B517E7A2E80070E521 /* Screen Shot 2013-09-16 at 4.34.20 PM.png in Resources */,
 				BABED4AA17E7F07600D88D9C /* MainStoryboard_iPad.storyboard in Resources */,
-				BABED4AC17E93B3700D88D9C /* pick-up truck_v6_iphone_icon.png in Resources */,
 				BABED4AE17E93B5200D88D9C /* pick-up truck_v6_iphone_icon.png in Resources */,
-				BABED4B417E93CFE00D88D9C /* pick-up truck_v6_ipad_Icon.png in Resources */,
 				BABED4B617E93D0900D88D9C /* pick-up truck_v6_ipad_Icon.png in Resources */,
+				BAE4518517EFB4C700F379C1 /* pickupSupGirlIPadIcon.png in Resources */,
+				BAE4518617EFB4C700F379C1 /* pickupSupGirlIPhoneIcon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

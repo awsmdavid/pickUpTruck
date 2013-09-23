@@ -14,8 +14,8 @@
 		<dict>
 			<key>CFBundleIconFiles</key>
 			<array>
-				<string>pick-up truck_v6_iphone_icon.png</string>
-				<string>pick-up truck_v6_ipad_Icon.png</string>
+				<string>pickupSupGirlIPhoneIcon.png</string>
+				<string>pickupSupGirlIPadIcon.png</string>
 			</array>
 		</dict>
 	</dict>

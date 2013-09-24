@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="11G63b" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="4510" systemVersion="12F37" targetRuntime="iOS.CocoaTouch.iPad" variant="6xAndEarlier" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+        <deployment defaultVersion="1792" identifier="iOS"/>
+        <development version="4600" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -13,16 +15,19 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="pick-up truck_v6.png" translatesAutoresizingMaskIntoConstraints="NO" id="yLf-zi-afl">
+                                <rect key="frame" x="29" y="240" width="263" height="308"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="308" id="lbw-HN-XIj"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Screen Shot 2013-09-16 at 4.34.20 PM.png" translatesAutoresizingMaskIntoConstraints="NO" id="7d7-sv-Lha">
+                                <rect key="frame" x="5" y="52" width="310" height="169"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="300" id="WGP-mz-kk7"/>
+                                    <constraint firstAttribute="width" constant="310" id="qBb-4C-Owv"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yqX-Ys-f5u">
+                                <rect key="frame" x="29" y="492" width="263" height="37"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="36" id="cin-NW-UsV"/>
                                 </constraints>
@@ -39,6 +44,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K7h-Sm-aEr">
+                                <rect key="frame" x="5" y="6" width="72" height="39"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="72" id="ADl-cK-Nuo"/>
                                     <constraint firstAttribute="height" constant="38" id="igE-NV-Wm0"/>
@@ -55,6 +61,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Sup Ladies" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="6" baselineAdjustment="alignBaselines" minimumFontSize="14" preferredMaxLayoutWidth="263" translatesAutoresizingMaskIntoConstraints="NO" id="ECW-sT-aCD">
+                                <rect key="frame" x="29" y="52" width="263" height="169"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="263" id="A53-Wn-Sfv"/>
                                     <constraint firstAttribute="height" constant="169" id="Bor-ZL-DH5"/>
@@ -68,18 +75,18 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <gestureRecognizers/>
                         <constraints>
+                            <constraint firstItem="K7h-Sm-aEr" firstAttribute="leading" secondItem="7d7-sv-Lha" secondAttribute="leading" type="default" id="72N-n6-q06"/>
                             <constraint firstItem="ECW-sT-aCD" firstAttribute="bottom" secondItem="7d7-sv-Lha" secondAttribute="bottom" type="default" id="CVZ-Rk-Ilq"/>
                             <constraint firstItem="yLf-zi-afl" firstAttribute="leading" secondItem="yqX-Ys-f5u" secondAttribute="leading" type="default" id="D4P-ad-2RL"/>
+                            <constraint firstItem="ECW-sT-aCD" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="Gj8-ic-Yua"/>
                             <constraint firstItem="ECW-sT-aCD" firstAttribute="leading" secondItem="yqX-Ys-f5u" secondAttribute="leading" type="default" id="QCj-es-bMf"/>
-                            <constraint firstItem="yLf-zi-afl" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="TmJ-Az-fo9"/>
+                            <constraint firstItem="7d7-sv-Lha" firstAttribute="centerX" secondItem="ECW-sT-aCD" secondAttribute="centerX" type="default" id="TII-YQ-lvP"/>
                             <constraint firstItem="ECW-sT-aCD" firstAttribute="trailing" secondItem="yqX-Ys-f5u" secondAttribute="trailing" type="default" id="U4O-K1-M9q"/>
                             <constraint firstItem="ECW-sT-aCD" firstAttribute="top" secondItem="K7h-Sm-aEr" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="W1I-x7-s3G"/>
                             <constraint firstItem="7d7-sv-Lha" firstAttribute="top" secondItem="K7h-Sm-aEr" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Z1A-zb-RcE"/>
                             <constraint firstItem="yLf-zi-afl" firstAttribute="bottom" secondItem="3" secondAttribute="bottom" type="default" id="aCY-Lz-MIH"/>
-                            <constraint firstItem="ECW-sT-aCD" firstAttribute="centerX" secondItem="7d7-sv-Lha" secondAttribute="centerX" type="default" id="aqd-jn-3c9"/>
                             <constraint firstAttribute="bottom" secondItem="yqX-Ys-f5u" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="g7M-IS-o9v"/>
                             <constraint firstItem="yqX-Ys-f5u" firstAttribute="trailing" secondItem="yLf-zi-afl" secondAttribute="trailing" type="default" id="ogH-CQ-Sw6"/>
-                            <constraint firstItem="K7h-Sm-aEr" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="5" id="pIU-35-KUv"/>
                             <constraint firstItem="K7h-Sm-aEr" firstAttribute="top" secondItem="3" secondAttribute="top" constant="6" id="qeb-Og-qBR"/>
                         </constraints>
                     </view>

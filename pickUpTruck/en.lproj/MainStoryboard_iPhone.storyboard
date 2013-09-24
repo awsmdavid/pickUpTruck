@@ -1,30 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="11G63b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12F37" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+        <deployment defaultVersion="1792" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="5">
             <objects>
                 <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FBH-Ud-dUA"/>
+                        <viewControllerLayoutGuide type="bottom" id="RJe-WQ-7U3"/>
+                    </layoutGuides>
                     <view key="view" opaque="NO" contentMode="scaleToFill" id="3">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="pick-up truck_v6.png" translatesAutoresizingMaskIntoConstraints="NO" id="yLf-zi-afl">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="259" id="cxb-Bn-yKe"/>
-                                    <constraint firstAttribute="width" constant="199" id="dOf-ic-2r5"/>
-                                </constraints>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Screen Shot 2013-09-16 at 4.34.20 PM.png" translatesAutoresizingMaskIntoConstraints="NO" id="7d7-sv-Lha">
+                                <rect key="frame" x="10" y="52" width="300" height="189"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="WGP-mz-kk7"/>
                                     <constraint firstAttribute="height" constant="189" id="oh8-ue-7Yr"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yqX-Ys-f5u">
+                                <rect key="frame" x="29" y="424" width="263" height="36"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="36" id="cin-NW-UsV"/>
                                 </constraints>
@@ -33,84 +34,99 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
                                 <connections>
                                     <action selector="changePickUp:" destination="2" eventType="touchUpInside" id="nw7-KM-F3A"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K7h-Sm-aEr">
+                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K7h-Sm-aEr">
+                                <rect key="frame" x="0.0" y="0.0" width="72" height="61"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="72" id="ADl-cK-Nuo"/>
-                                    <constraint firstAttribute="height" constant="38" id="igE-NV-Wm0"/>
+                                    <constraint firstAttribute="height" constant="61" id="igE-NV-Wm0"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="20"/>
                                 <state key="normal" title="Back">
-                                    <color key="titleColor" red="0.027450982481241226" green="0.0078431377187371254" blue="0.0078431377187371254" alpha="1" colorSpace="deviceRGB"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="goBack:" destination="2" eventType="touchUpInside" id="5Uw-v8-B4n"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Sup Ladies" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="6" baselineAdjustment="alignBaselines" minimumFontSize="14" preferredMaxLayoutWidth="263" translatesAutoresizingMaskIntoConstraints="NO" id="ECW-sT-aCD">
+                                <rect key="frame" x="29" y="52" width="263" height="163"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="143" id="3cB-zz-cex"/>
-                                    <constraint firstAttribute="width" constant="263" id="A53-Wn-Sfv"/>
+                                    <constraint firstAttribute="height" constant="163" id="3cB-zz-cex"/>
+                                    <constraint firstAttribute="width" constant="263" id="lxf-c4-KFP"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="24"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <size key="shadowOffset" width="0.0" height="2"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="pickUpTruck.png" translatesAutoresizingMaskIntoConstraints="NO" id="Zsk-DL-97q">
+                                <rect key="frame" x="75" y="304" width="170" height="112"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="112" id="ZGP-Q8-hsX"/>
+                                    <constraint firstAttribute="width" constant="170" id="bwF-vu-061"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1m4-QM-8Qd">
+                                <rect key="frame" x="75" y="304" width="170" height="112"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="changePickUp:" destination="2" eventType="touchUpInside" id="hff-Rk-kcO"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <gestureRecognizers/>
                         <constraints>
-                            <constraint firstItem="K7h-Sm-aEr" firstAttribute="leading" secondItem="7d7-sv-Lha" secondAttribute="leading" type="default" id="E2u-J9-joS"/>
-                            <constraint firstItem="yqX-Ys-f5u" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="Obp-1L-fI9"/>
-                            <constraint firstItem="ECW-sT-aCD" firstAttribute="leading" secondItem="yqX-Ys-f5u" secondAttribute="leading" type="default" id="QCj-es-bMf"/>
-                            <constraint firstItem="yLf-zi-afl" firstAttribute="centerX" secondItem="yqX-Ys-f5u" secondAttribute="centerX" type="default" id="Sh3-0B-kmV"/>
-                            <constraint firstItem="ECW-sT-aCD" firstAttribute="trailing" secondItem="yqX-Ys-f5u" secondAttribute="trailing" type="default" id="U4O-K1-M9q"/>
-                            <constraint firstItem="ECW-sT-aCD" firstAttribute="top" secondItem="K7h-Sm-aEr" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="W1I-x7-s3G"/>
-                            <constraint firstItem="7d7-sv-Lha" firstAttribute="top" secondItem="K7h-Sm-aEr" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Z1A-zb-RcE"/>
-                            <constraint firstItem="yLf-zi-afl" firstAttribute="bottom" secondItem="3" secondAttribute="bottom" type="default" id="aCY-Lz-MIH"/>
-                            <constraint firstItem="ECW-sT-aCD" firstAttribute="centerX" secondItem="7d7-sv-Lha" secondAttribute="centerX" type="default" id="aqd-jn-3c9"/>
-                            <constraint firstAttribute="bottom" secondItem="yqX-Ys-f5u" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="g7M-IS-o9v"/>
-                            <constraint firstItem="K7h-Sm-aEr" firstAttribute="top" secondItem="3" secondAttribute="top" constant="6" id="hqM-mI-XGF"/>
+                            <constraint firstItem="ECW-sT-aCD" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" id="8By-5W-y0U"/>
+                            <constraint firstItem="K7h-Sm-aEr" firstAttribute="leading" secondItem="7d7-sv-Lha" secondAttribute="leading" constant="-10" id="E2u-J9-joS"/>
+                            <constraint firstItem="Zsk-DL-97q" firstAttribute="centerX" secondItem="7d7-sv-Lha" secondAttribute="centerX" id="LuO-TB-uiI"/>
+                            <constraint firstItem="ECW-sT-aCD" firstAttribute="trailing" secondItem="yqX-Ys-f5u" secondAttribute="trailing" id="U4O-K1-M9q"/>
+                            <constraint firstItem="ECW-sT-aCD" firstAttribute="top" secondItem="K7h-Sm-aEr" secondAttribute="bottom" constant="-9" id="W1I-x7-s3G"/>
+                            <constraint firstItem="7d7-sv-Lha" firstAttribute="top" secondItem="K7h-Sm-aEr" secondAttribute="bottom" constant="-9" id="Z1A-zb-RcE"/>
+                            <constraint firstItem="ECW-sT-aCD" firstAttribute="centerX" secondItem="7d7-sv-Lha" secondAttribute="centerX" id="aqd-jn-3c9"/>
+                            <constraint firstAttribute="bottom" secondItem="yqX-Ys-f5u" secondAttribute="bottom" constant="20" symbolic="YES" id="g7M-IS-o9v"/>
+                            <constraint firstItem="K7h-Sm-aEr" firstAttribute="top" secondItem="3" secondAttribute="top" id="hqM-mI-XGF"/>
+                            <constraint firstItem="yqX-Ys-f5u" firstAttribute="leading" secondItem="ECW-sT-aCD" secondAttribute="leading" id="iGD-dz-1AG"/>
+                            <constraint firstItem="yqX-Ys-f5u" firstAttribute="top" secondItem="Zsk-DL-97q" secondAttribute="bottom" constant="8" symbolic="YES" id="xSU-uQ-et9"/>
                         </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="4kv-La-Uyw" appends="YES" id="ctc-3i-ARu"/>
+                            <outletCollection property="gestureRecognizers" destination="fT3-eM-7sc" appends="YES" id="iCm-6m-bvf"/>
+                        </connections>
                     </view>
                     <connections>
                         <outlet property="pickUpLabel" destination="ECW-sT-aCD" id="5RP-5Q-Fv3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="left" id="4kv-La-Uyw">
+                    <connections>
+                        <action selector="changePickUp:" destination="2" id="brL-F3-xk8"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="fT3-eM-7sc">
+                    <connections>
+                        <action selector="goBack:" destination="2" id="9Ka-IO-Q4A"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
+            <point key="canvasLocation" x="188" y="82"/>
         </scene>
     </scenes>
     <resources>
         <image name="Screen Shot 2013-09-16 at 4.34.20 PM.png" width="374" height="274"/>
-        <image name="pick-up truck_v6.png" width="180" height="252"/>
+        <image name="pickUpTruck.png" width="467" height="297"/>
     </resources>
-    <classes>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-        <class className="ViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="changePickUp:"/>
-                <relationship kind="action" name="goBack:"/>
-                <relationship kind="outlet" name="pickUpLabel" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination" type="retina4"/>
+        <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
 </document>

@@ -10,6 +10,8 @@
 
 #import "AppDelegate.h"
 
+#import <iAd/iAD.h>
+
 int main(int argc, char *argv[])
 {
     @autoreleasepool {

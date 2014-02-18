@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12F37" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
     <dependencies>
-        <deployment defaultVersion="1792" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -17,15 +17,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Screen Shot 2013-09-16 at 4.34.20 PM.png" translatesAutoresizingMaskIntoConstraints="NO" id="7d7-sv-Lha">
-                                <rect key="frame" x="10" y="52" width="300" height="189"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" image="Screen Shot 2013-09-16 at 4.34.20 PM.png" translatesAutoresizingMaskIntoConstraints="NO" id="7d7-sv-Lha">
+                                <rect key="frame" x="10" y="83" width="300" height="189"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="WGP-mz-kk7"/>
                                     <constraint firstAttribute="height" constant="189" id="oh8-ue-7Yr"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yqX-Ys-f5u">
-                                <rect key="frame" x="29" y="424" width="263" height="36"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yqX-Ys-f5u">
+                                <rect key="frame" x="29" y="394" width="263" height="36"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="36" id="cin-NW-UsV"/>
                                 </constraints>
@@ -38,8 +38,8 @@
                                     <action selector="changePickUp:" destination="2" eventType="touchUpInside" id="nw7-KM-F3A"/>
                                 </connections>
                             </button>
-                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K7h-Sm-aEr">
-                                <rect key="frame" x="0.0" y="0.0" width="72" height="61"/>
+                            <button contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K7h-Sm-aEr">
+                                <rect key="frame" x="0.0" y="36" width="72" height="67"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="72" id="ADl-cK-Nuo"/>
                                     <constraint firstAttribute="height" constant="61" id="igE-NV-Wm0"/>
@@ -52,8 +52,8 @@
                                     <action selector="goBack:" destination="2" eventType="touchUpInside" id="5Uw-v8-B4n"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Sup Ladies" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="6" baselineAdjustment="alignBaselines" minimumFontSize="14" preferredMaxLayoutWidth="263" translatesAutoresizingMaskIntoConstraints="NO" id="ECW-sT-aCD">
-                                <rect key="frame" x="29" y="52" width="263" height="163"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" misplaced="YES" text="Sup Ladies" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="6" baselineAdjustment="alignBaselines" minimumFontSize="14" preferredMaxLayoutWidth="263" translatesAutoresizingMaskIntoConstraints="NO" id="ECW-sT-aCD">
+                                <rect key="frame" x="29" y="84" width="263" height="163"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="163" id="3cB-zz-cex"/>
                                     <constraint firstAttribute="width" constant="263" id="lxf-c4-KFP"/>
@@ -63,30 +63,36 @@
                                 <nil key="highlightedColor"/>
                                 <size key="shadowOffset" width="0.0" height="2"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="pickUpTruck.png" translatesAutoresizingMaskIntoConstraints="NO" id="Zsk-DL-97q">
-                                <rect key="frame" x="75" y="304" width="170" height="112"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="112" id="ZGP-Q8-hsX"/>
-                                    <constraint firstAttribute="width" constant="170" id="bwF-vu-061"/>
-                                </constraints>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1m4-QM-8Qd">
-                                <rect key="frame" x="75" y="304" width="170" height="112"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1m4-QM-8Qd">
+                                <rect key="frame" x="86" y="277" width="170" height="123"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="changePickUp:" destination="2" eventType="touchUpInside" id="hff-Rk-kcO"/>
+                                    <action selector="changePickUp:" destination="2" eventType="touchUpInside" id="sz7-wp-hoy"/>
                                 </connections>
                             </button>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="pickUpTruck.png" highlightedImage="pickUpTruck.png" translatesAutoresizingMaskIntoConstraints="NO" id="ozN-Ss-xDq">
+                                <rect key="frame" x="76" y="271" width="180" height="136"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <adBannerView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jgh-16-or2">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </adBannerView>
+                            <adBannerView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MO1-Pe-FIB">
+                                <rect key="frame" x="0.0" y="430" width="320" height="50"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </adBannerView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="ECW-sT-aCD" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" id="8By-5W-y0U"/>
                             <constraint firstItem="K7h-Sm-aEr" firstAttribute="leading" secondItem="7d7-sv-Lha" secondAttribute="leading" constant="-10" id="E2u-J9-joS"/>
-                            <constraint firstItem="Zsk-DL-97q" firstAttribute="centerX" secondItem="7d7-sv-Lha" secondAttribute="centerX" id="LuO-TB-uiI"/>
                             <constraint firstItem="ECW-sT-aCD" firstAttribute="trailing" secondItem="yqX-Ys-f5u" secondAttribute="trailing" id="U4O-K1-M9q"/>
                             <constraint firstItem="ECW-sT-aCD" firstAttribute="top" secondItem="K7h-Sm-aEr" secondAttribute="bottom" constant="-9" id="W1I-x7-s3G"/>
                             <constraint firstItem="7d7-sv-Lha" firstAttribute="top" secondItem="K7h-Sm-aEr" secondAttribute="bottom" constant="-9" id="Z1A-zb-RcE"/>
@@ -94,7 +100,6 @@
                             <constraint firstAttribute="bottom" secondItem="yqX-Ys-f5u" secondAttribute="bottom" constant="20" symbolic="YES" id="g7M-IS-o9v"/>
                             <constraint firstItem="K7h-Sm-aEr" firstAttribute="top" secondItem="3" secondAttribute="top" id="hqM-mI-XGF"/>
                             <constraint firstItem="yqX-Ys-f5u" firstAttribute="leading" secondItem="ECW-sT-aCD" secondAttribute="leading" id="iGD-dz-1AG"/>
-                            <constraint firstItem="yqX-Ys-f5u" firstAttribute="top" secondItem="Zsk-DL-97q" secondAttribute="bottom" constant="8" symbolic="YES" id="xSU-uQ-et9"/>
                         </constraints>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="4kv-La-Uyw" appends="YES" id="ctc-3i-ARu"/>
@@ -116,13 +121,14 @@
                         <action selector="goBack:" destination="2" id="9Ka-IO-Q4A"/>
                     </connections>
                 </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="p1H-mv-uB5"/>
             </objects>
-            <point key="canvasLocation" x="188" y="82"/>
+            <point key="canvasLocation" x="188" y="71"/>
         </scene>
     </scenes>
     <resources>
         <image name="Screen Shot 2013-09-16 at 4.34.20 PM.png" width="374" height="274"/>
-        <image name="pickUpTruck.png" width="467" height="297"/>
+        <image name="pickUpTruck.png" width="180" height="252"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

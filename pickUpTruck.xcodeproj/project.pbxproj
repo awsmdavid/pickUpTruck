@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BA3FEDED1781459800A3D602 /* pick-up truck_v6.png in Resources */ = {isa = PBXBuildFile; fileRef = BA3FEDEC1781459800A3D602 /* pick-up truck_v6.png */; };
 		BAB6D0B517E7A2E80070E521 /* Screen Shot 2013-09-16 at 4.34.20 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = BAB6D0B417E7A2E80070E521 /* Screen Shot 2013-09-16 at 4.34.20 PM.png */; };
 		BABED4AA17E7F07600D88D9C /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BABED4A917E7F07600D88D9C /* MainStoryboard_iPad.storyboard */; };
+		BAD67F4818B2E69F00549CFE /* pickUpTruck.png in Resources */ = {isa = PBXBuildFile; fileRef = BAD67F4718B2E69F00549CFE /* pickUpTruck.png */; };
 		BAD799FA17F1CB35008FDD24 /* pickUp72x72iconIpad.png in Resources */ = {isa = PBXBuildFile; fileRef = BAD799F317F1CB35008FDD24 /* pickUp72x72iconIpad.png */; };
 		BAD799FB17F1CB35008FDD24 /* pickUp120x120iconIphoneRetina.png in Resources */ = {isa = PBXBuildFile; fileRef = BAD799F417F1CB35008FDD24 /* pickUp120x120iconIphoneRetina.png */; };
 		BAD799FC17F1CB35008FDD24 /* pickUp152x152iconIpadRetina.png in Resources */ = {isa = PBXBuildFile; fileRef = BAD799F517F1CB35008FDD24 /* pickUp152x152iconIpadRetina.png */; };
@@ -33,7 +33,6 @@
 		BAD79A2017F1D10E008FDD24 /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = BAD79A1817F1D10E008FDD24 /* Default-Landscape@2x~ipad.png */; };
 		BAD79A2117F1D10E008FDD24 /* launch2048x1536.png in Resources */ = {isa = PBXBuildFile; fileRef = BAD79A1917F1D10E008FDD24 /* launch2048x1536.png */; };
 		BAD79A2317F1D16F008FDD24 /* Default~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = BAD79A2217F1D16F008FDD24 /* Default~ipad.png */; };
-		BAE4518817EFDE4600F379C1 /* pickUpTruck.png in Resources */ = {isa = PBXBuildFile; fileRef = BAE4518717EFDE4600F379C1 /* pickUpTruck.png */; };
 		BAE47A621745E69F00C26788 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAE47A611745E69F00C26788 /* UIKit.framework */; };
 		BAE47A641745E69F00C26788 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAE47A631745E69F00C26788 /* Foundation.framework */; };
 		BAE47A661745E69F00C26788 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAE47A651745E69F00C26788 /* CoreGraphics.framework */; };
@@ -63,9 +62,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BA3FEDEC1781459800A3D602 /* pick-up truck_v6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pick-up truck_v6.png"; sourceTree = "<group>"; };
 		BAB6D0B417E7A2E80070E521 /* Screen Shot 2013-09-16 at 4.34.20 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2013-09-16 at 4.34.20 PM.png"; sourceTree = "<group>"; };
 		BABED4A917E7F07600D88D9C /* MainStoryboard_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		BAD67F4718B2E69F00549CFE /* pickUpTruck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pickUpTruck.png; sourceTree = "<group>"; };
 		BAD799F317F1CB35008FDD24 /* pickUp72x72iconIpad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pickUp72x72iconIpad.png; path = Icons/pickUp72x72iconIpad.png; sourceTree = "<group>"; };
 		BAD799F417F1CB35008FDD24 /* pickUp120x120iconIphoneRetina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pickUp120x120iconIphoneRetina.png; path = Icons/pickUp120x120iconIphoneRetina.png; sourceTree = "<group>"; };
 		BAD799F517F1CB35008FDD24 /* pickUp152x152iconIpadRetina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pickUp152x152iconIpadRetina.png; path = Icons/pickUp152x152iconIpadRetina.png; sourceTree = "<group>"; };
@@ -89,7 +88,6 @@
 		BAD79A1817F1D10E008FDD24 /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape@2x~ipad.png"; path = "launch images/Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
 		BAD79A1917F1D10E008FDD24 /* launch2048x1536.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = launch2048x1536.png; path = "launch images/launch2048x1536.png"; sourceTree = "<group>"; };
 		BAD79A2217F1D16F008FDD24 /* Default~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default~ipad.png"; path = "launch images/Default~ipad.png"; sourceTree = "<group>"; };
-		BAE4518717EFDE4600F379C1 /* pickUpTruck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pickUpTruck.png; path = ../../../pickUpTruck.png; sourceTree = "<group>"; };
 		BAE47A5E1745E69F00C26788 /* pickUpTruck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pickUpTruck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAE47A611745E69F00C26788 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BAE47A631745E69F00C26788 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -227,8 +225,7 @@
 			children = (
 				BAD79A1117F1D0FE008FDD24 /* launchImages */,
 				BAD799E417F1CA6D008FDD24 /* appIcons */,
-				BAE4518717EFDE4600F379C1 /* pickUpTruck.png */,
-				BA3FEDEC1781459800A3D602 /* pick-up truck_v6.png */,
+				BAD67F4718B2E69F00549CFE /* pickUpTruck.png */,
 				BAB6D0B417E7A2E80070E521 /* Screen Shot 2013-09-16 at 4.34.20 PM.png */,
 				BAE47A691745E69F00C26788 /* pickUpTruck-Info.plist */,
 				BAE47A6A1745E69F00C26788 /* InfoPlist.strings */,
@@ -338,6 +335,7 @@
 				BAD79A1B17F1D10E008FDD24 /* Default.png in Resources */,
 				BAD79A1E17F1D10E008FDD24 /* launch1536x2048.png in Resources */,
 				BAE47A6C1745E69F00C26788 /* InfoPlist.strings in Resources */,
+				BAD67F4818B2E69F00549CFE /* pickUpTruck.png in Resources */,
 				BAD79A0217F1CBE1008FDD24 /* pickUpIconIphoneRetina.png in Resources */,
 				BAD79A0417F1CC64008FDD24 /* pickUpSpotlight29x29.png in Resources */,
 				BAE47A741745E69F00C26788 /* Default.png in Resources */,
@@ -353,7 +351,6 @@
 				BAD79A0617F1CCEA008FDD24 /* pickUp76x76iconIpad.png in Resources */,
 				BAD79A2317F1D16F008FDD24 /* Default~ipad.png in Resources */,
 				BAD79A1017F1CD9D008FDD24 /* icon100x100.png in Resources */,
-				BA3FEDED1781459800A3D602 /* pick-up truck_v6.png in Resources */,
 				BAD799FC17F1CB35008FDD24 /* pickUp152x152iconIpadRetina.png in Resources */,
 				BAD79A2117F1D10E008FDD24 /* launch2048x1536.png in Resources */,
 				BAD79A0E17F1CD9D008FDD24 /* icon58x58.png in Resources */,
@@ -364,7 +361,6 @@
 				BAD79A0F17F1CD9D008FDD24 /* icon80x80.png in Resources */,
 				BAD79A2017F1D10E008FDD24 /* Default-Landscape@2x~ipad.png in Resources */,
 				BAD799FE17F1CB35008FDD24 /* pickUpRetinaIPhoneIcon.png in Resources */,
-				BAE4518817EFDE4600F379C1 /* pickUpTruck.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,7 +459,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: David Cheng (9RNFE78B4N)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: David Cheng (9RNFE78B4N)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -495,7 +492,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: David Cheng (9RNFE78B4N)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: David Cheng (9RNFE78B4N)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -513,11 +511,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "pickUpTruck/pickUpTruck-Prefix.pch";
 				INFOPLIST_FILE = "pickUpTruck/pickUpTruck-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -527,11 +527,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "pickUpTruck/pickUpTruck-Prefix.pch";
 				INFOPLIST_FILE = "pickUpTruck/pickUpTruck-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};

@@ -8,7 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+#import <iAd/iAd.h>
 
+@interface ViewController : UIViewController <UIApplicationDelegate>{
+
+}
 
 @end

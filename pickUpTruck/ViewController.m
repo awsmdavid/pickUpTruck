@@ -26,8 +26,6 @@ static int penultimatePickedLine = -1;
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
-
 }
 
 - (void)didReceiveMemoryWarning

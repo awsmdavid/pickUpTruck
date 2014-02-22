@@ -8,12 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>{
-    ADBannerView *adView;
-    BOOL bannerIsVisible;
-}
 
-@property (nonatomic, assign) BOOL bannerIsVisible;
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

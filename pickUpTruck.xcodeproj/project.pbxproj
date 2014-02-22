@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BAB6D0B517E7A2E80070E521 /* Screen Shot 2013-09-16 at 4.34.20 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = BAB6D0B417E7A2E80070E521 /* Screen Shot 2013-09-16 at 4.34.20 PM.png */; };
+		BAB8552918B2ED2F00211356 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAB8552818B2ED2F00211356 /* iAd.framework */; };
 		BABED4AA17E7F07600D88D9C /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BABED4A917E7F07600D88D9C /* MainStoryboard_iPad.storyboard */; };
 		BAD67F4818B2E69F00549CFE /* pickUpTruck.png in Resources */ = {isa = PBXBuildFile; fileRef = BAD67F4718B2E69F00549CFE /* pickUpTruck.png */; };
 		BAD799FA17F1CB35008FDD24 /* pickUp72x72iconIpad.png in Resources */ = {isa = PBXBuildFile; fileRef = BAD799F317F1CB35008FDD24 /* pickUp72x72iconIpad.png */; };
@@ -33,6 +34,7 @@
 		BAD79A2017F1D10E008FDD24 /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = BAD79A1817F1D10E008FDD24 /* Default-Landscape@2x~ipad.png */; };
 		BAD79A2117F1D10E008FDD24 /* launch2048x1536.png in Resources */ = {isa = PBXBuildFile; fileRef = BAD79A1917F1D10E008FDD24 /* launch2048x1536.png */; };
 		BAD79A2317F1D16F008FDD24 /* Default~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = BAD79A2217F1D16F008FDD24 /* Default~ipad.png */; };
+		BADA4FE718B918090011CEFF /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = BADA4FE618B918090011CEFF /* background.png */; };
 		BAE47A621745E69F00C26788 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAE47A611745E69F00C26788 /* UIKit.framework */; };
 		BAE47A641745E69F00C26788 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAE47A631745E69F00C26788 /* Foundation.framework */; };
 		BAE47A661745E69F00C26788 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAE47A651745E69F00C26788 /* CoreGraphics.framework */; };
@@ -63,6 +65,7 @@
 
 /* Begin PBXFileReference section */
 		BAB6D0B417E7A2E80070E521 /* Screen Shot 2013-09-16 at 4.34.20 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2013-09-16 at 4.34.20 PM.png"; sourceTree = "<group>"; };
+		BAB8552818B2ED2F00211356 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		BABED4A917E7F07600D88D9C /* MainStoryboard_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		BAD67F4718B2E69F00549CFE /* pickUpTruck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pickUpTruck.png; sourceTree = "<group>"; };
 		BAD799F317F1CB35008FDD24 /* pickUp72x72iconIpad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pickUp72x72iconIpad.png; path = Icons/pickUp72x72iconIpad.png; sourceTree = "<group>"; };
@@ -88,6 +91,7 @@
 		BAD79A1817F1D10E008FDD24 /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape@2x~ipad.png"; path = "launch images/Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
 		BAD79A1917F1D10E008FDD24 /* launch2048x1536.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = launch2048x1536.png; path = "launch images/launch2048x1536.png"; sourceTree = "<group>"; };
 		BAD79A2217F1D16F008FDD24 /* Default~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default~ipad.png"; path = "launch images/Default~ipad.png"; sourceTree = "<group>"; };
+		BADA4FE618B918090011CEFF /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		BAE47A5E1745E69F00C26788 /* pickUpTruck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pickUpTruck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAE47A611745E69F00C26788 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BAE47A631745E69F00C26788 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -117,6 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAB8552918B2ED2F00211356 /* iAd.framework in Frameworks */,
 				BAE47A621745E69F00C26788 /* UIKit.framework in Frameworks */,
 				BAE47A641745E69F00C26788 /* Foundation.framework in Frameworks */,
 				BAE47A661745E69F00C26788 /* CoreGraphics.framework in Frameworks */,
@@ -198,6 +203,7 @@
 		BAE47A601745E69F00C26788 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BAB8552818B2ED2F00211356 /* iAd.framework */,
 				BAE47A611745E69F00C26788 /* UIKit.framework */,
 				BAE47A631745E69F00C26788 /* Foundation.framework */,
 				BAE47A651745E69F00C26788 /* CoreGraphics.framework */,
@@ -231,6 +237,7 @@
 				BAE47A6A1745E69F00C26788 /* InfoPlist.strings */,
 				BAE47A6D1745E69F00C26788 /* main.m */,
 				BAE47A6F1745E69F00C26788 /* pickUpTruck-Prefix.pch */,
+				BADA4FE618B918090011CEFF /* background.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -331,6 +338,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAD79A1A17F1D10E008FDD24 /* launch768x1024.png in Resources */,
+				BADA4FE718B918090011CEFF /* background.png in Resources */,
 				BAD799FB17F1CB35008FDD24 /* pickUp120x120iconIphoneRetina.png in Resources */,
 				BAD79A1B17F1D10E008FDD24 /* Default.png in Resources */,
 				BAD79A1E17F1D10E008FDD24 /* launch1536x2048.png in Resources */,

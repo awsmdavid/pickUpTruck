@@ -100,7 +100,7 @@
     </scenes>
     <resources>
         <image name="Screen Shot 2013-09-16 at 4.34.20 PM.png" width="374" height="274"/>
-        <image name="pickUpTruck.png" width="180" height="252"/>
+        <image name="pickUpTruck.png" width="130" height="104"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

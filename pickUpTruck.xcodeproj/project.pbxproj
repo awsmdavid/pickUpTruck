@@ -27,10 +27,8 @@
 		BAD79A0F17F1CD9D008FDD24 /* icon80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = BAD79A0A17F1CD9D008FDD24 /* icon80x80.png */; };
 		BAD79A1017F1CD9D008FDD24 /* icon100x100.png in Resources */ = {isa = PBXBuildFile; fileRef = BAD79A0B17F1CD9D008FDD24 /* icon100x100.png */; };
 		BAD79A1A17F1D10E008FDD24 /* launch768x1024.png in Resources */ = {isa = PBXBuildFile; fileRef = BAD79A1217F1D10E008FDD24 /* launch768x1024.png */; };
-		BAD79A1B17F1D10E008FDD24 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BAD79A1317F1D10E008FDD24 /* Default.png */; };
 		BAD79A1C17F1D10E008FDD24 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = BAD79A1417F1D10E008FDD24 /* Default-Landscape~ipad.png */; };
 		BAD79A1D17F1D10E008FDD24 /* launch1024x768.png in Resources */ = {isa = PBXBuildFile; fileRef = BAD79A1517F1D10E008FDD24 /* launch1024x768.png */; };
-		BAD79A1E17F1D10E008FDD24 /* launch1536x2048.png in Resources */ = {isa = PBXBuildFile; fileRef = BAD79A1617F1D10E008FDD24 /* launch1536x2048.png */; };
 		BAD79A2017F1D10E008FDD24 /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = BAD79A1817F1D10E008FDD24 /* Default-Landscape@2x~ipad.png */; };
 		BAD79A2117F1D10E008FDD24 /* launch2048x1536.png in Resources */ = {isa = PBXBuildFile; fileRef = BAD79A1917F1D10E008FDD24 /* launch2048x1536.png */; };
 		BAD79A2317F1D16F008FDD24 /* Default~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = BAD79A2217F1D16F008FDD24 /* Default~ipad.png */; };
@@ -340,8 +338,6 @@
 				BAD79A1A17F1D10E008FDD24 /* launch768x1024.png in Resources */,
 				BADA4FE718B918090011CEFF /* background.png in Resources */,
 				BAD799FB17F1CB35008FDD24 /* pickUp120x120iconIphoneRetina.png in Resources */,
-				BAD79A1B17F1D10E008FDD24 /* Default.png in Resources */,
-				BAD79A1E17F1D10E008FDD24 /* launch1536x2048.png in Resources */,
 				BAE47A6C1745E69F00C26788 /* InfoPlist.strings in Resources */,
 				BAD67F4818B2E69F00549CFE /* pickUpTruck.png in Resources */,
 				BAD79A0217F1CBE1008FDD24 /* pickUpIconIphoneRetina.png in Resources */,
@@ -523,7 +519,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "pickUpTruck/pickUpTruck-Prefix.pch";
 				INFOPLIST_FILE = "pickUpTruck/pickUpTruck-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -539,7 +535,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "pickUpTruck/pickUpTruck-Prefix.pch";
 				INFOPLIST_FILE = "pickUpTruck/pickUpTruck-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;

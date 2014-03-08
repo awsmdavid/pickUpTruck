@@ -10,7 +10,7 @@
 
 #import <iAd/iAd.h>
 
-@interface ViewController : UIViewController <UIApplicationDelegate>{
+@interface ViewController : UIViewController <ADBannerViewDelegate>{
 
 }
 

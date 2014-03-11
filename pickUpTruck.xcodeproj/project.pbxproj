@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA815D0C18CED6FC0024FF0A /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA815D0A18CED6FC0024FF0A /* libGoogleAdMobAds.a */; };
+		BA815D0D18CED6FC0024FF0A /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = BA815D0B18CED6FC0024FF0A /* README.txt */; };
+		BA815D0F18CED74D0024FF0A /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA815D0E18CED74D0024FF0A /* AdSupport.framework */; };
+		BA815D1118CED78A0024FF0A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA815D1018CED78A0024FF0A /* AudioToolbox.framework */; };
+		BA815D1318CED7900024FF0A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA815D1218CED7900024FF0A /* AVFoundation.framework */; };
+		BA815D1518CED79E0024FF0A /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA815D1418CED79E0024FF0A /* CoreTelephony.framework */; };
+		BA815D1718CED7A70024FF0A /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA815D1618CED7A70024FF0A /* MessageUI.framework */; };
+		BA815D1918CED7AF0024FF0A /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA815D1818CED7AF0024FF0A /* StoreKit.framework */; };
+		BA815D1B18CED7B70024FF0A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA815D1A18CED7B70024FF0A /* SystemConfiguration.framework */; };
 		BAB6D0B517E7A2E80070E521 /* Screen Shot 2013-09-16 at 4.34.20 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = BAB6D0B417E7A2E80070E521 /* Screen Shot 2013-09-16 at 4.34.20 PM.png */; };
 		BAB8552918B2ED2F00211356 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAB8552818B2ED2F00211356 /* iAd.framework */; };
 		BABED4AA17E7F07600D88D9C /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BABED4A917E7F07600D88D9C /* MainStoryboard_iPad.storyboard */; };
@@ -62,6 +71,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA815D0118CED6FC0024FF0A /* GADAdMobExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdMobExtras.h; sourceTree = "<group>"; };
+		BA815D0218CED6FC0024FF0A /* GADAdNetworkExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdNetworkExtras.h; sourceTree = "<group>"; };
+		BA815D0318CED6FC0024FF0A /* GADAdSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdSize.h; sourceTree = "<group>"; };
+		BA815D0418CED6FC0024FF0A /* GADBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerView.h; sourceTree = "<group>"; };
+		BA815D0518CED6FC0024FF0A /* GADBannerViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerViewDelegate.h; sourceTree = "<group>"; };
+		BA815D0618CED6FC0024FF0A /* GADInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitial.h; sourceTree = "<group>"; };
+		BA815D0718CED6FC0024FF0A /* GADInterstitialDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitialDelegate.h; sourceTree = "<group>"; };
+		BA815D0818CED6FC0024FF0A /* GADRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequest.h; sourceTree = "<group>"; };
+		BA815D0918CED6FC0024FF0A /* GADRequestError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequestError.h; sourceTree = "<group>"; };
+		BA815D0A18CED6FC0024FF0A /* libGoogleAdMobAds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAdMobAds.a; sourceTree = "<group>"; };
+		BA815D0B18CED6FC0024FF0A /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		BA815D0E18CED74D0024FF0A /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		BA815D1018CED78A0024FF0A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		BA815D1218CED7900024FF0A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BA815D1418CED79E0024FF0A /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		BA815D1618CED7A70024FF0A /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		BA815D1818CED7AF0024FF0A /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		BA815D1A18CED7B70024FF0A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		BAB6D0B417E7A2E80070E521 /* Screen Shot 2013-09-16 at 4.34.20 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2013-09-16 at 4.34.20 PM.png"; sourceTree = "<group>"; };
 		BAB8552818B2ED2F00211356 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		BABED4A917E7F07600D88D9C /* MainStoryboard_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
@@ -119,10 +146,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA815D1B18CED7B70024FF0A /* SystemConfiguration.framework in Frameworks */,
+				BA815D1918CED7AF0024FF0A /* StoreKit.framework in Frameworks */,
+				BA815D1718CED7A70024FF0A /* MessageUI.framework in Frameworks */,
+				BA815D1518CED79E0024FF0A /* CoreTelephony.framework in Frameworks */,
+				BAE47A661745E69F00C26788 /* CoreGraphics.framework in Frameworks */,
+				BA815D1318CED7900024FF0A /* AVFoundation.framework in Frameworks */,
+				BA815D1118CED78A0024FF0A /* AudioToolbox.framework in Frameworks */,
+				BA815D0F18CED74D0024FF0A /* AdSupport.framework in Frameworks */,
 				BAB8552918B2ED2F00211356 /* iAd.framework in Frameworks */,
 				BAE47A621745E69F00C26788 /* UIKit.framework in Frameworks */,
 				BAE47A641745E69F00C26788 /* Foundation.framework in Frameworks */,
-				BAE47A661745E69F00C26788 /* CoreGraphics.framework in Frameworks */,
+				BA815D0C18CED6FC0024FF0A /* libGoogleAdMobAds.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +236,13 @@
 		BAE47A601745E69F00C26788 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BA815D1A18CED7B70024FF0A /* SystemConfiguration.framework */,
+				BA815D1818CED7AF0024FF0A /* StoreKit.framework */,
+				BA815D1618CED7A70024FF0A /* MessageUI.framework */,
+				BA815D1418CED79E0024FF0A /* CoreTelephony.framework */,
+				BA815D1218CED7900024FF0A /* AVFoundation.framework */,
+				BA815D1018CED78A0024FF0A /* AudioToolbox.framework */,
+				BA815D0E18CED74D0024FF0A /* AdSupport.framework */,
 				BAB8552818B2ED2F00211356 /* iAd.framework */,
 				BAE47A611745E69F00C26788 /* UIKit.framework */,
 				BAE47A631745E69F00C26788 /* Foundation.framework */,
@@ -213,6 +255,17 @@
 		BAE47A671745E69F00C26788 /* pickUpTruck */ = {
 			isa = PBXGroup;
 			children = (
+				BA815D0118CED6FC0024FF0A /* GADAdMobExtras.h */,
+				BA815D0218CED6FC0024FF0A /* GADAdNetworkExtras.h */,
+				BA815D0318CED6FC0024FF0A /* GADAdSize.h */,
+				BA815D0418CED6FC0024FF0A /* GADBannerView.h */,
+				BA815D0518CED6FC0024FF0A /* GADBannerViewDelegate.h */,
+				BA815D0618CED6FC0024FF0A /* GADInterstitial.h */,
+				BA815D0718CED6FC0024FF0A /* GADInterstitialDelegate.h */,
+				BA815D0818CED6FC0024FF0A /* GADRequest.h */,
+				BA815D0918CED6FC0024FF0A /* GADRequestError.h */,
+				BA815D0A18CED6FC0024FF0A /* libGoogleAdMobAds.a */,
+				BA815D0B18CED6FC0024FF0A /* README.txt */,
 				BAE47A701745E69F00C26788 /* AppDelegate.h */,
 				BAE47A711745E69F00C26788 /* AppDelegate.m */,
 				BAE47A791745E69F00C26788 /* MainStoryboard_iPhone.storyboard */,
@@ -355,6 +408,7 @@
 				BAD79A0617F1CCEA008FDD24 /* pickUp76x76iconIpad.png in Resources */,
 				BAD79A2317F1D16F008FDD24 /* Default~ipad.png in Resources */,
 				BAD79A1017F1CD9D008FDD24 /* icon100x100.png in Resources */,
+				BA815D0D18CED6FC0024FF0A /* README.txt in Resources */,
 				BAD799FC17F1CB35008FDD24 /* pickUp152x152iconIpadRetina.png in Resources */,
 				BAD79A2117F1D10E008FDD24 /* launch2048x1536.png in Resources */,
 				BAD79A0E17F1CD9D008FDD24 /* icon58x58.png in Resources */,
@@ -520,6 +574,11 @@
 				GCC_PREFIX_HEADER = "pickUpTruck/pickUpTruck-Prefix.pch";
 				INFOPLIST_FILE = "pickUpTruck/pickUpTruck-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/awsmdavid/Desktop/projects/pickUpTruck/pickUpTruck,
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -536,6 +595,11 @@
 				GCC_PREFIX_HEADER = "pickUpTruck/pickUpTruck-Prefix.pch";
 				INFOPLIST_FILE = "pickUpTruck/pickUpTruck-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/awsmdavid/Desktop/projects/pickUpTruck/pickUpTruck,
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;

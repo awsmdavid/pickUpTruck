@@ -10,8 +10,13 @@
 
 #import <iAd/iAd.h>
 
+#import "GADBannerView.h"
+
+
 @interface ViewController : UIViewController <ADBannerViewDelegate>{
 
 }
+@property (nonatomic, strong) ADBannerView *bannerView;
+@property (nonatomic, strong) GADBannerView *admobBannerView;
 
 @end

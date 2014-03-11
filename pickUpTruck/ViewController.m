@@ -48,7 +48,7 @@ static int penultimatePickedLine = -1;
     [self.bannerView removeFromSuperview];
     
     _admobBannerView = [[GADBannerView alloc]
-                        initWithFrame:CGRectMake(0.0,0.0,
+                        initWithFrame:CGRectMake(0.0,20.0,
                                                  GAD_SIZE_320x50.width,
                                                  GAD_SIZE_320x50.height)];
     
